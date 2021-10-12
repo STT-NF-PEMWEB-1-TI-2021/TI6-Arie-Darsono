@@ -1,2 +1,2 @@
-# TI6-Arie_-Darsono
+# TI6-Arie-Darsono
 Repository Arie, untuk mengumpulkan tugas dan pratikum
