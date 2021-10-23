@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="utf-8">
+    <title>Form Barang Arie</title>
+</head>
+
+<body style="padding-left: 20px; padding-top: 20px;">
+    <div style="width: 800px; border:2px solid black; background-color:silver; align-items: center; padding-left: 20px;">
+        <table>
+            <p style="text-align: center;">A Web Page by Arie</p>
+            <tr>
+                <td><img src="images/back.png" width="18px"></td>
+                <td><img src="images/forward.png" width="25px"></td>
+                <td><img src="images/x.png" width="25px"></td>
+                <td><img src="images/home.png" width="25px"></td>
+                <td><input type="text" name="bar" placeholder="https://" size="80"></td>
+                <td><img src="images/search.png" width="20px"></td>
+            </tr>
+        </table>
+    </div>
+    <div style="width: 800px; border:2px solid black; background-color:white; padding: 5px; padding-left: 15px;">
+        <a href="#" style="text-decoration: none; color: black; margin-left: 120px;">Home</a>
+        <a href="#" style="text-decoration: none; color: black; margin-left: 40px;">Generate Link</a>
+        <a href="#" style="text-decoration: none; color: black; margin-left: 40px;">Transaction History</a>
+        <a href="#" style="text-decoration: none; color: black; margin-left: 40px;">Policy</a>
+        <a href="#" style="text-decoration: none; color: black; margin-left: 40px;">Logout</a>
+    </div>
+    <div style="width: 800px; border: 2px solid black; background-color: silver; display: flex; padding-left: 20px;">
+        <table>
+            <tr>
+                <td style="align-items: center; justify-content: left;">
+                    <img style="margin-right: 10px;" src="images/mac.jpg" width="200px">
+            </tr>
+            <tr style="display: flex;">
+                <td>
+                    <button>Upload Picture</button>
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td>
+                    <form style="padding-bottom: 20px; padding-top: 10px;">
+                        <label for="titlehere">Title Here :</label>
+                        <input style="margin-left: 95px;" type="text" name="titlehere" value="Macbock Air pro"><br><br>
+
+                        <label for="deskripsi">Description :</label>
+                        <textarea style="margin-left: 85px;" name="text" placeholder="Year : 2021"
+                            cols="40"></textarea><br><br>
+
+                        <label for="number">Account Number :</label>
+                        <input style="margin-left: 49px;" type="text" name="account" value="987-456-123"><br><br>
+
+                        <label for="bank">Bank :</label>
+                        <select style="margin-left: 125px;" id="bank" name="bank">
+                            <option value="HSBC">HSBC</option>
+                            <option value="BNI">BNI</option>
+                            <option value="BCA">BCA</option>
+                            <option value="Mandiri">Mandiri</option>
+                          </select>
+                        <br><br>
+
+                        <label for="titlehere">Account Helder :</label>
+                        <input style="margin-left: 56px;" type="text" name="helder" value="Name Here"><br><br>
+
+                        <label for="transaction">Transaction</label>
+                        <input style="width: 36px; margin-left: 90px;" type="number" step="1" min="1" name="quantity"
+                            value="1" size="1">
+
+                        <p style="margin-left: 160px; font-size: 12px;">* if the transaction is for 3 person, choose 3
+                            from the drop-down
+                            list</p>
+
+                        <div style="margin-left: 150px; font-size: 12px;">
+                            <input type="checkbox" name="bank" value="back" checked>
+                            <label style="color: royalblue;">Send to mobile phone</label><br>
+                            <input type="checkbox" name="bank" value="back" checked>
+                            <label style="color: royalblue;">Send to email</label>
+                        </div><br><br>
+
+                        <label for="number">Send to mobile phone :</label>
+                        <input style="margin-left: 14px;" type="text" name="number"
+                            value="123456, 9876543"><br><br>
+
+                        <label for="number">Send to email :</label>
+                        <input style="margin-left: 65px;" type="text" name="email"
+                            value="ariedarsono@gmail.com"><br><br>
+
+                        <input style="width: 130px; margin-left: 166px; background-color: forestgreen; color: white;" type="submit"
+                            value="Generate Link">
+                            <br>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
